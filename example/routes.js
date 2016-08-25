@@ -43,7 +43,7 @@ module.exports.setup = function(app) {
    * /login:
    *   post:
    *     description: Login to the application
-   *     tag: [Users]
+   *     tags: [Users]
    *     produces:
    *       - application/json
    *     parameters:
@@ -69,7 +69,7 @@ module.exports.setup = function(app) {
    * /users:
    *   get:
    *     description: Returns users
-   *     tag: [Users]
+   *     tags: [Users]
    *     produces:
    *      - application/json
    *     responses:
@@ -87,7 +87,7 @@ module.exports.setup = function(app) {
    * /users:
    *   post:
    *     description: Returns users
-   *     tag: [Users]
+   *     tags: [Users]
    *     produces:
    *       - application/json
    *     parameters:
